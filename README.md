@@ -1,2 +1,8 @@
-# CS633---Parallel-Computing
-This repo holds the assignments and their solutions for the course CS633A: Parallel Computing, taken by Prof. Preeti Malakar in the Dept. of Computer Science and Engineering, IIT Kanpur. 
+### Parallel Computing (CS633) Assignments
+
+This repository contains all of the assignment solutions for the course Parallel Computing **(CS633A)** course at IIT Kanpur, 2023-2024 Even semester, instructed by [Prof. Preeti Malakar](https://www.cse.iitk.ac.in/users/pmalakar/). These assignments were made in a team of three which included me, along with [Aditya Bangar](https://github.com/bangaradi) and [Pratham Sahu](https://github.com/Prathamsahu52).
+
+| __Assignment__ | __Task__                         | __Subtasks__                                                                                                                         |
+| -------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Assignment-1         | Lexical Analysis                       | - This assigment required performing halo exchange and stencil computation (5-point and 9-point) for a 2D domain split across processes, compare the performance using MPI_Pack/MPI_Unpack vs MPI_Send/MPI_Recv, and plot timing results for different configurations.                                     |
+| Assignment-2         | Syntactic Analysis                     | - This assigment required us to modify your previous halo exchange MPI code to implement hierarchical communication using leader ranks (topology-aware), then compare the performance (timing) of halo exchange with vs without leader ranks for 9-point stencil, and plot the timing results for different configurations using 5 runs each |
